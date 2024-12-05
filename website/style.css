@@ -1,0 +1,189 @@
+body {
+  background-color: rgb(212, 133, 236);
+  color: white;
+  margin: 2px; 
+}
+
+ul {
+  list-style-type: none;
+}
+
+.box {
+  background-color: white;
+  border: 2px solid rgb(161, 52, 183);
+  color: rgb(212, 133, 236);
+  width: 30%;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Fascinate Inline';
+  float: right;
+}
+
+header {
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+div {
+  box-sizing:border-box;
+  border: 2px solid white;
+  border-radius:10px;
+  margin: 2%;
+  padding: 10px;
+
+}
+.center {
+  text-align: center;
+}
+
+#gallery {
+  margin: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.photo {
+  background-color: rgb(161, 52, 183);
+  border: 2px dashed white;
+  text-align: center;
+  float:left;
+  flex-grow: 1;
+  width: 250px;
+  margin-right: 0 0 2% 2%;
+}
+
+.photo > p {
+  padding: 1px;
+  margin: 4px;
+  color: white;
+}
+
+img {
+  width: 200px;
+  height: 250px;
+  border: 2px solid white;
+}
+
+.section {
+  background-color: rgb(76, 198, 255);
+  border: 2px solid white;
+  flex-grow: 1;
+  margin: 2%;
+  padding: 20px;
+  font-size: 30px;
+}
+
+#left {
+  box-sizing:border-box;
+  background-color: rgb(162, 57, 184);
+  padding: 2%;
+}
+
+#right {
+  box-sizing:border-box;
+  background-color: rgb(162, 57, 184);
+  margin-left: 2%;
+  padding: 2%;
+
+}
+
+footer {
+  clear: both;
+  background-color: white;
+  color: rgb(212, 133, 236);
+  border-radius: 10px;
+  text-align: center;
+  height: auto;
+  font-size: 40px;
+}
+
+span {
+ background-color: white;
+ color: rgb(162, 57, 184);
+}
+
+.background-paragraph {
+  background-color: rgb(162, 57, 184);
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 2%;
+  padding: 2%;
+  font-size: 30px;
+}
+
+@media (max-width: 992px) {
+  header, nav main{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  .box {
+    width: 100%;
+    font-size: 25px;
+  }
+  .center2 {
+    text-align: center;
+  }
+  .direction {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  h4 {
+    float: right;
+  }
+  .direction {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+}
+
+@media (max-width: 800px) {
+  body {
+    background-color: navy;
+  }
+  .section {
+    background-color: coral;
+  }
+  .background-paragraph {
+    background-color: coral;
+  }
+  .box {
+    background-color: white;
+    border: 2px solid coral;
+    color: navy;
+  }
+  footer {
+    background-color: white;
+    color: navy;
+  }
+  #left {
+    background-color: rgb(126, 205, 231);
+    color: navy;
+  }
+  #right {
+    background-color: rgb(126, 205, 231);
+    color: navy;
+  }
+  span {
+    color: navy
+  }
+  .photo {
+    background-color: rgb(126, 205, 231);
+  }
+  .photo > p {
+    color: navy;
+  }
+
+}
