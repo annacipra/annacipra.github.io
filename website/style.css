@@ -188,7 +188,7 @@ span {
 
 }
 
-section.transition-example {
+div.transition-example {
   color: #fff;
   display: flex;
   align-items: center;
@@ -199,7 +199,7 @@ section.transition-example {
   transition: background-color 1s ease;
 }
 
-section.transition-example:hover {
+div.transition-example:hover {
   background-color: #A7A7A7;
 }
   
