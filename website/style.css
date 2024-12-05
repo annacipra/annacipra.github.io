@@ -20,10 +20,10 @@ ul {
 
 }
 
-h1 {
+.move {
   text-align: center;
   font-family: 'Fascinate Inline';
-  float: right;
+  float: left;
 }
 
 header {
