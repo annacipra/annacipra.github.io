@@ -120,7 +120,7 @@ span {
 }
 
 @media (max-width: 992px) {
-  header, nav main{
+  header, nav, main{
     font-size: 40px;
     display: flex;
     flex-direction: column;
