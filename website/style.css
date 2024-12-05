@@ -49,8 +49,7 @@ div {
   align-items: flex-start;
 }
 
-.photo {
-  background-color: rgb(161, 52, 183);
+#photo {
   border: 2px dashed white;
   text-align: center;
   float:left;
@@ -59,7 +58,7 @@ div {
   margin-right: 0 0 2% 2%;
 }
 
-.photo > p {
+#photo > p {
   padding: 1px;
   margin: 4px;
   color: white;
@@ -118,6 +117,16 @@ span {
   font-size: 30px;
 }
 
+div.transition-photo {
+  color: white;
+  background-color: rgb(161, 52, 183);
+  transition: background-color 1s ease;
+}
+
+div.transition-photo:hover {
+  background-color: rgb(242, 137, 147);
+}
+
 @media (max-width: 992px) {
   header, nav main{
     font-size: 40px;
@@ -137,7 +146,7 @@ span {
     font-size: 30px;
   }
 }
-
+  
 @media (min-width: 992px) {
   h4 {
     float: right;
@@ -186,4 +195,4 @@ span {
     color: navy;
   }
 
-}
+
