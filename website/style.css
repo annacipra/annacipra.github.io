@@ -186,13 +186,13 @@ div.transition-photo:hover {
     color: navy
   }
   
-  div.transition-photo {
+  .transition-photo {
     color: white;
     background-color: rgb(126, 205, 231);
     transition: background-color 1s ease;
   }
 
-  div.transition-photo:hover {
+  .transition-photo:hover {
     background-color: rgb(69, 247, 211);
   }
 
