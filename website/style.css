@@ -2,15 +2,11 @@ body {
   margin: 0;
   background: rgb(207, 236, 247);
 }
-
-header {
-  background: rgb(159, 226, 250);
-  clear: both;
-}
   
 .container {
   width: 80%;
   margin: 0 auto;
+  background: rgb(159, 226, 250);
 }
 
 nav {
