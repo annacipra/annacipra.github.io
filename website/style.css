@@ -203,4 +203,24 @@ div.transition-example {
 div.transition-example:hover {
   background-color: #A7A7A7;
 }
+
+#l {
+  box-sizing:border-box;
+  padding: 2%;
+}
+
+#c {
+  box-sizing:border-box;
+  margin-left: 2%;
+  padding: 2%;
+}
+
+#r {
+  box-sizing:border-box;
+  margin-left: 2%;
+  padding: 2%;
+}
+  
+  
+  
   
