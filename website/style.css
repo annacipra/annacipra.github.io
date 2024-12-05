@@ -14,9 +14,10 @@ header {
   background-color: white;
 }
 
-.move {
+h1 {
   font-family: 'Fascinate Inline';
   float: left;
+  color: pink;
 }
 
 nav {
