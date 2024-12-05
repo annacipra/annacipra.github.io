@@ -152,7 +152,7 @@ div.transition-photo:hover {
     display: flex;
     flex-direction: row;
     font-size: 20px;
-}
+  }
 }
 
 @media (max-width: 800px) {
@@ -185,11 +185,28 @@ div.transition-photo:hover {
   span {
     color: navy
   }
-  .photo {
+  
+  div.transition-photo {
+    color: white;
     background-color: rgb(126, 205, 231);
+    border: 2px dashed white;
+    text-align: center;
+    float:left;
+    flex-grow: 1;
+    width: 250px;
+    margin-right: 0 0 2% 2%;
+    transition: background-color 1s ease;
   }
-  .photo > p {
+
+  div.transition-photo:hover {
+    background-color: rgb(69, 247, 211);
+  }
+
+  .transition-photo > p {
     color: navy;
   }
+}
+
+  
 
 
