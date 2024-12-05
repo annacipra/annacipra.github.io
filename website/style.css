@@ -86,6 +86,13 @@ img {
   padding: 2%;
 }
 
+#center {
+  box-sizing:border-box;
+  background-color: rgb(162, 57, 184);
+  margin-left: 2%;
+  padding: 2%;
+}
+
 #right {
   box-sizing:border-box;
   background-color: rgb(162, 57, 184);
@@ -204,22 +211,6 @@ div.transition-example:hover {
   background-color: #A7A7A7;
 }
 
-#l {
-  box-sizing:border-box;
-  padding: 2%;
-}
-
-#c {
-  box-sizing:border-box;
-  margin-left: 2%;
-  padding: 2%;
-}
-
-#r {
-  box-sizing:border-box;
-  margin-left: 2%;
-  padding: 2%;
-}
   
   
   
