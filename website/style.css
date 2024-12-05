@@ -187,7 +187,15 @@ div.transition-photo:hover {
   }
   
   div.transition-photo {
+    color: white;
+    border: 2px dashed white;
+    text-align: center;
+    float:left;
+    flex-grow: 1;
+    width: 250px;
+    margin-right: 0 0 2% 2%;
     background-color: rgb(126, 205, 231);
+    transition: background-color 1s ease;
   }
 
   div.transition-photo:hover {
