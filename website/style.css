@@ -196,6 +196,7 @@ div.transition-example {
   width: 200px;
   height: 200px;
   background-color: #512888;
+  float: left;
   transition: background-color 1s ease;
 }
 
