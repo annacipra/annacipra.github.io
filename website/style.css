@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: rgb(212, 133, 236);
+  background-color: rgb(206, 234, 244);
   color: white;
   margin: 2px; 
 }
@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: white;
+  background-color: rgb(159, 226, 250);
 }
 
 h1 {
