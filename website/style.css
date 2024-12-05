@@ -129,7 +129,7 @@ span {
   header, nav main{
     font-size: 40px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   .box {
     width: 100%;
