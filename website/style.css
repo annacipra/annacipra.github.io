@@ -17,10 +17,7 @@ header::after {
 }
 
 .navbar {
-  font-family: 'Fascinate Inline';
-  font-size: 50px;
   float: left;
-  color: pink;
 }
 
 nav {
