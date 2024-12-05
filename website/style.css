@@ -186,7 +186,7 @@ div.transition-photo:hover {
     color: navy
   }
   
-  .transition-photo {
+  div {
     background-color: rgb(126, 205, 231);
   }
 
