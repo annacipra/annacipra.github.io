@@ -5,6 +5,23 @@ body {
   margin: 2px; 
 }
 
+header {
+  background-color: white;
+}
+
+.move {
+  font-family: 'Fascinate Inline';
+  float: left;
+}
+
+nav {
+  float: right
+}
+
+#clear {
+  clear: both;
+}
+
 ul {
   list-style-type: none;
 }
@@ -18,18 +35,6 @@ ul {
   border-radius: 5px;
   padding: 5px;
 
-}
-
-.move {
-  text-align: center;
-  font-family: 'Fascinate Inline';
-  float: left;
-}
-
-header {
-  padding: 20px;
-  font-size: 1.5rem;
-  background-color: white;
 }
 
 div {
