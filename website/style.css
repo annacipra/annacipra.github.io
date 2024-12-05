@@ -16,6 +16,7 @@ header {
 
 .navbar {
   font-family: 'Fascinate Inline';
+  font-size: 10px;
   float: left;
   color: pink;
 }
