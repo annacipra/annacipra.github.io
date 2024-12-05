@@ -188,17 +188,18 @@ span {
 
 }
 
-div.transform-button {
-  color: rgb(212, 133, 236);
+div.transform-example {
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 30%;
-  background-color: white;
+  width: 200px;
+  height: 200px;
+  background-color: #512888;
   transition: background-color 1s ease;
 }
 
-div.transition:hover {
-  background-color: pink;
+div.transition-example:hover {
+  background-color: #A7A7A7;
 }
   
