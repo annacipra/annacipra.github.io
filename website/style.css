@@ -139,7 +139,7 @@ div.transition-photo:hover {
 
 
 @media (max-width: 992px) {
-  header, nav main{
+  header, main{
     font-size: 40px;
     display: flex;
     flex-direction: column;
