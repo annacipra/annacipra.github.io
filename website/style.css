@@ -12,16 +12,6 @@ ul {
   font-size: 40px;
 }
 
-.box {
-  background-color: white;
-  border: 2px solid rgb(161, 52, 183);
-  color: rgb(161, 52, 183);
-  width: 30%;
-  border-radius: 20px;
-  padding: 5px;
-
-}
-
 h1 {
   text-align: center;
   font-family: 'Fascinate Inline';
