@@ -135,10 +135,6 @@ div.transition-photo:hover {
     display: flex;
     flex-direction: column;
   }
-
-  header {
-    color: white
-  }
   
   .center2 {
     text-align: center;
