@@ -90,6 +90,7 @@ footer {
   text-align: center;
   height: auto;
   font-size: 40px;
+  border: 2px solid rgb(161, 52, 183);
 }
 
 span {
