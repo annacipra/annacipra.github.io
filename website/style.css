@@ -147,7 +147,11 @@ div.transition-photo:hover {
   background-color: white;
   color: coral;
 }
-  
+
+.nav-tabs li {
+  margin-right: 10px;
+} 
+
 @media (max-width: 992px) {
   header, nav main{
     font-size: 40px;
