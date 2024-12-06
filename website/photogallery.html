@@ -82,6 +82,13 @@
       </section>
       <section>
         <button class="button">Click Me To Make The Pictures Disappear!</button>
+        <script>
+          var myButton = querySelector("button")
+          var elementToRemove = document.querySelector("#gallery")
+          myButton.addEventListener("click", () => {
+            elementToRemove.remove();
+          });
+        </script>
       </section>
     </main>
     <footer>
