@@ -154,7 +154,7 @@ div.transition-photo:hover {
     display: flex;
     flex-direction: column;
   }
-  .box {
+  .container {
     width: 100%;
     font-size: 25px;
   }
