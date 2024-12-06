@@ -132,6 +132,9 @@ button {
 
 #opening {
   font-size: 30px;
+  font-family: "Zilla Slab";
+  padding: 40px;
+  margin: 2%;
   color: pink;
   background-color: white;
 }
