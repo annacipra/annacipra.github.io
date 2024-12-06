@@ -13,7 +13,7 @@ ul {
   border: 2px solid rgb(161, 52, 183);
   color: rgb(212, 133, 236);
   width: 30%;
-  border-radius: 5px;
+  border-radius: 20px;
   padding: 5px;
 
 }
@@ -32,7 +32,7 @@ header {
 div {
   box-sizing:border-box;
   border: 2px solid white;
-  border-radius:10px;
+  border-radius: 20px;
   margin: 2%;
   padding: 10px;
 
@@ -82,7 +82,7 @@ footer {
   clear: both;
   background-color: white;
   color: rgb(212, 133, 236);
-  border-radius: 10px;
+  border-radius: 20px;
   text-align: center;
   height: auto;
   font-size: 40px;
@@ -96,7 +96,7 @@ span {
 .background-paragraph {
   background-color: rgb(162, 57, 184);
   border: 2px solid white;
-  border-radius: 10px;
+  border-radius: 20px;
   margin: 2%;
   padding: 2%;
   font-size: 30px;
@@ -127,6 +127,7 @@ div.transition-photo:hover {
 button {
   color: white;
   font-size: 30px;
+  border-radius: 20px;
   background-color: coral;
 }
 
