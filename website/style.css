@@ -124,7 +124,7 @@ div.transition-photo:hover {
   color: white;
 }
 
-.button {
+button {
   color: white;
   font-size: 30px;
   background-color: coral;
