@@ -139,9 +139,6 @@ button {
   background-color: white;
 }
 
-.center {
-  text-align: center;
-}
 
 @media (max-width: 992px) {
   header, nav main{
