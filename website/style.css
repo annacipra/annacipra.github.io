@@ -129,13 +129,6 @@ div.transition-photo:hover {
   color: white;
 }
 
-button {
-  color: white;
-  font-size: 30px;
-  border-radius: 20px;
-  background-color: coral;
-}
-
 #opening {
   font-size: 30px;
   border: 2px solid rgb(161, 52, 183);
