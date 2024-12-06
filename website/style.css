@@ -60,7 +60,7 @@ img {
 }
 
 .section {
-  background-color: rgb(76, 198, 255);
+  background-color: coral;
   border: 2px solid white;
   flex-grow: 1;
   margin: 2%;
