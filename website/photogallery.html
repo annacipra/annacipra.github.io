@@ -83,8 +83,8 @@
       <section class="text-center">
         <button id="button">Click Me To Make The Pictures Disappear!</button>
         <script>
-          document.getElementById("button")
-          addEventListener("click, function() {
+          var myButton = document.getElementById("button")
+          myButton.addEventListener("click, function() {
             var deleteItem = document.getElementById("gallery")
             deleteItem.remove()
           });
