@@ -83,10 +83,10 @@
       <section class="text-center">
         <button id="mybutton" onclick="remove()">Click Me To Make The Pictures Disappear!</button>
         <script>
-          document.getElementById("mybutton").addEventListener("click, function() {
-            var deleteItem = document.getElementById("gallery")
-            deleteItem.remove()
-          });
+          function remove() {
+            var removePictures = document.getElementById("gallery")
+            removePictures.parentNode.removeChild(removePictures)
+          }
         </script>
       </section>
     </main>
