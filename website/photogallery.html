@@ -81,12 +81,12 @@
         </div>
       </section>
       <section class="text-center">
-        <button class="button">Click Me To Make The Pictures Disappear!</button>
+        <button id="button">Click Me To Make The Pictures Disappear!</button>
         <script>
-          var myButton = querySelector("button")
-          var elementToRemove = document.querySelector("#gallery")
-          myButton.addEventListener("click", () => {
-            elementToRemove.remove();
+          document.getElementById("button")
+          addEventListener("click, function() {
+            var deleteItem = document.getElementById("gallery")
+            deleteItem.remove()
           });
         </script>
       </section>
